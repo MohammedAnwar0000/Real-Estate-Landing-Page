@@ -142,3 +142,17 @@ input:focus, textarea:focus, select:focus {
 .fade-in {
     animation: fadeIn 0.6s ease forwards;
 }
+img, iframe, table {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100dvh; 
+}
